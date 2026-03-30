@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout da tela de tutorial de postura -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Botão voltar — retorna à tela anterior -->
+    <ImageView
+        android:id="@+id/imgVoltarTutorial"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/seta_voltar"
+        app:tint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Título da tela no topo -->
+    <TextView
+        android:id="@+id/txtTempoTopo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TUTORIAL VÍDEO"
+        android:textColor="#DBC49A"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVoltarTutorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVoltarTutorial" />
+
+    <!-- Container do GIF animado com fundo preto -->
+    <FrameLayout
+        android:id="@+id/frameVideo"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="24dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTempoTopo">
+
+        <!-- ImageView que exibe os GIFs de exercício -->
+        <ImageView
+            android:id="@+id/imgCarrossel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <!-- Linha de progresso com tempo atual e barra -->
+    <LinearLayout
+        android:id="@+id/linhaProgresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/frameVideo">
+
+        <!-- Tempo decorrido -->
+        <TextView
+            android:id="@+id/txtTempoAtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:00"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <!-- Barra de progresso do tutorial (máximo 120 segundos) -->
+        <ProgressBar
+            android:id="@+id/progressBarVideo"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_weight="1"
+            android:max="120"
+            android:progress="0"
+            android:progressTint="#FFFFFF" />
+
+        <!-- Tempo total do tutorial -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:00"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Linha separadora -->
+    <View
+        android:id="@+id/linhaSeparadoraVideo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/linhaProgresso" />
+
+    <!-- Título da técnica -->
+    <TextView
+        android:id="@+id/txtTituloPostura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="→ POSTURA"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linhaSeparadoraVideo" />
+
+    <!-- Cards informativos: sequência, frequência e exercicios -->
+    <LinearLayout
+        android:id="@+id/linearCardsInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloPostura">
+
+        <!-- Card: quantidade de gifs na sequência -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_botao_menu"
+            android:gravity="center"
+            android:text="3 GIFS\nSEQUÊNCIA"
+            android:textColor="#065271"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <!-- Card: frequência semanal recomendada -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_botao_menu"
+            android:gravity="center"
+            android:text="5X\nSEMANA"
+            android:textColor="#065271"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <!-- Card: número de passos do exercício -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_botao_menu"
+            android:gravity="center"
+            android:text="3\nEXERCICIOS"
+            android:textColor="#065271"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Título da seção Exercicios -->
+    <TextView
+        android:id="@+id/txtPassoAPasso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="EXERCICIOS"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearCardsInfo" />
+
+    <!-- Caixa com os 3 passos do exercício -->
+    <LinearLayout
+        android:id="@+id/caixaPassos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_botao_menu"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassoAPasso">
+
+        <!-- Passo 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="1 -Balanço de cócoras(40s)"
+            android:textColor="#065271"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Passo 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="2 - Mobilidade da anca(40s)"
+            android:textColor="#065271"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Passo 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 - Lunge lateral(40s)"
+            android:textColor="#065271"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Exibe as calorias estimadas ao completar o tutorial -->
+    <TextView
+        android:id="@+id/txtCalorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_botao_menu"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="🔥 Calorias estimadas: 0 kcal"
+        android:textColor="#065271"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/caixaPassos" />
+
+    <!-- Botão para iniciar, pausar ou reiniciar o tutorial -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIniciarTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_botao_menu"
+        android:drawableStart="@android:drawable/ic_media_play"
+        android:drawableTint="#065271"
+        android:paddingHorizontal="32dp"
+        android:text="INICIAR TUTORIAL GUIADO"
+        android:textColor="#065271"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalorias" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
