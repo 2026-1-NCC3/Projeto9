@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout da tela de técnicas RPG -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Botão voltar — retorna à tela anterior -->
+    <ImageView
+        android:id="@+id/imgVoltarTecnicas"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/seta_voltar"
+        app:tint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Título da tela -->
+    <TextView
+        android:id="@+id/txtTituloTecnicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TECNICAS RPG"
+        android:textColor="#DBC49A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVoltarTecnicas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVoltarTecnicas" />
+
+    <!-- Campo de busca de técnicas -->
+    <EditText
+        android:id="@+id/edtBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_busca"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:drawableTint="#FFFFFF"
+        android:hint="BUSCAR..."
+        android:paddingHorizontal="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#99FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/imgVoltarTecnicas" />
+
+    <!-- Linha separadora entre busca e botões -->
+    <View
+        android:id="@+id/linhaTop"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/edtBuscar" />
+
+    <!-- Lista de botões das técnicas disponíveis -->
+    <LinearLayout
+        android:id="@+id/linearBotoesTecnicas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/linhaTop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Botão para acessar a técnica de Alongamento (em desenvolvimento) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAlongamento"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_botao_menu"
+            android:text="NAO FUNCIONA AINDA"
+            android:textColor="#065271"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <!-- Botão para acessar a técnica de Respiração (em desenvolvimento) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRespiracao"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_botao_menu"
+            android:text="NAO FUNCIONA AINDA"
+            android:textColor="#065271"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <!-- Botão para acessar a técnica de Postura -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPostura"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_botao_menu"
+            android:text="POSTURA"
+            android:textColor="#065271"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

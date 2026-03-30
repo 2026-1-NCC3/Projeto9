@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout da tela de perfil do usuário -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Botão voltar — retorna ao menu principal -->
+    <ImageView
+        android:id="@+id/imgVoltarPerfil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/seta_voltar"
+        app:tint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Nome de saudação do usuário -->
+    <TextView
+        android:id="@+id/txtNomeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olá, Yuri"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgVoltarPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgVoltarPerfil" />
+
+    <!-- Ícone grande do perfil do usuário -->
+    <ImageView
+        android:id="@+id/imgIconePerfilGrande"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/icone_user"
+        app:tint="#0A3C53"
+        app:layout_constraintBottom_toBottomOf="@+id/txtNomeUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtNomeUsuario" />
+
+    <!-- Lista de opções do perfil centralizada verticalmente -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgIconePerfilGrande">
+
+        <!-- Botão para acessar conquistas (em desenvolvimento) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnConquistas"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_botao_menu"
+            android:text="exemplo botao"
+            android:textColor="#065271"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <!-- Botão para acessar dados pessoais (em desenvolvimento) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDadosPessoais"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_botao_menu"
+            android:text="exemplo botao"
+            android:textColor="#065271"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <!-- Botão para acessar ajustes e calibrações (em desenvolvimento) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAjustes"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_botao_menu"
+            android:text="exemplo botao"
+            android:textColor="#065271"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
