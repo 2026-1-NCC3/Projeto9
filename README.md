@@ -11,7 +11,7 @@
 
 ## Integrantesdo Grupo
 
-Yuri Santanav
+Yuri Santana<br>
 Mauricio Suster<br>
 Kaio Inglez<br>
 Igor
