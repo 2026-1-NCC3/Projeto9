@@ -22,7 +22,7 @@ Aplicativo Android desenvolvido para a Clínica Maya, com foco em exercícios de
 ### Passos
 1. Clone o repositório:
 ```
-   git clone URL_DO_REPOSITORIO
+   git clone https://github.com/2026-1-NCC3/Projeto9.git
 ```
 2. Abra o projeto no **Android Studio**
 3. Aguarde o **Gradle Sync** finalizar
