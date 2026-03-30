@@ -49,16 +49,25 @@ O projeto consiste no desenvolvimento de uma solução tecnologica (web e mobile
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|Entrega 1
-  &emsp;|Entrega 2 <br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+```text|
+├── Documentos
+|   ├── Entrega 1
+|   |   ├── Análise Descritiva de Dados
+|   |   ├── Programação Orientada a Objetos e Estrutura de Dados
+|   |   ├── Programação para Dispositivos Móveis
+|   |   └── Projeto Interdisciplinar: Aplicativo Móvel
+|   └── Entrega 2
+|       ├── Análise Descritiva de Dados
+|       ├── Programação Orientada a Objetos e Estrutura de Dados
+|       ├── Programação para Dispositivos Móveis
+|       └── Projeto Interdisciplinar: Aplicativo Móvel
+|
+├── imagens
+|
+├── src
+|
+└── README.md
+```
 
 ## 🛠 Instalação
 
@@ -71,33 +80,6 @@ Execute o APK e siga as instruções de seu telefone.
 Coloque código do prompt de comnando se for necessário
 ```
 
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 📋 Licença/License
 Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
