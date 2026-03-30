@@ -23,8 +23,21 @@ Especialização que contém os dados específicos para o tratamento de RPG.
 ### 🖼️ Diagrama de Classes
 O diagrama abaixo representa a estrutura da função principal exigida nesta etapa, contemplando as entidades e seus respectivos tipos de dados.
 
-![Diagrama de Classes](Documentos/Entrega-1/Programação-Orientada-a-Objetos-e-Estrutura-de-Dados/DiagramaPoo.png)
+![Diagrama de Classes](../../../Imagens/DiagramaPoo.png)
 
+---
+
+### 🧬 Explicação da Arquitetura (Herança e Conexões)
+
+#### 1. O Conceito de Herança ("É UM")
+No diagrama, a classe **Paciente** estende(Herda) a classe **Usuario**. Isso estabelece uma relação de herança onde:
+*  O Paciente herda automaticamente os atributos id, nome, email e senha da superclasse Usuario, evitando a repetição de código.
+* A subclasse Paciente foca exclusivamente em atributos clínicos, como telefone (para notificações) e observacoesClinicas (para o prontuário de RPG).
+
+#### 2. Conexões e Fluxo de Dados (CRUD)
+As conexões entre as entidades permitem que a função principal do sistema opere de forma integrada:
+* **Identificação por ID**: O atributo id (Integer) funciona como a chave de conexão. Ele permite que o sistema localize um Usuario específico para realizar edições ou a exclusão do registro conforme solicitado.
+* **Integridade dos Dados**: Como o Paciente é um Usuario, qualquer alteração no e-mail de login reflete instantaneamente no perfil clínico, mantendo os dados sincronizados.
 ---
 
 ### 🔄 Regras de Conexão (CRUD)
