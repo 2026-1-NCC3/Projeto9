@@ -4,11 +4,36 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
+# Projeto Maya Yamamoto - RPG
+<br>
+
 ## CTRL+ALT+DEL
 
-## Integrantes: Yuri Santana, Mauricio Suster, Kaio Inglez, Igor
+## Integrantesdo Grupo
 
-## Professores Orientadores: Katia Bossi, Marco Aurélio, Victor Rosetti, Rodrigo da Rosa
+Yuri Santanav
+Mauricio Suster<br>
+Kaio Inglez<br>
+Igor
+
+## Professores Orientadores
+
+Katia Bossi<br>
+Marco Aurélio<br>
+Victor Rosetti<br>
+Rodrigo da Rosa
+
+<br>
+
+## Entregas das Disciplinas
+
+| Disciplina | Entrega 1 | 
+| :--- | :--- |
+| Análise Descritiva de Dados | [/Documentos/Entrega 1/Analise Descritiva de Dados](./Documentos/Entrega%201/Analise%20Descritiva%20de%20Dados) | 
+| Programação Orientada a Objetos e Estrutura de Dados | [/Documentos/Entrega 1/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%201/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | 
+| Programação para Dispositivos Moveis | [/Documentos/Entrega 1/Programação para Dispositivos Moveis](./Documentos/Entrega%201/Programação%20para%20Dispositivos%20Moveis) | 
+| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/Entrega 1/Projeto Interdisciplinar Aplicativo Movel](./Documentos/Entrega%201/Projeto%20Interdisciplinar%20Aplicativo%20Movel) | 
+<br>
 
 
 ## Descrição
