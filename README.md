@@ -31,8 +31,8 @@ Rodrigo da Rosa
 | :--- | :--- |
 | Análise Descritiva de Dados | [/Documentos/Entrega 1/Analise Descritiva de Dados](./Documentos/Entrega%201/Analise%20Descritiva%20de%20Dados) | 
 | Programação Orientada a Objetos e Estrutura de Dados | [/Documentos/Entrega 1/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%201/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | 
-| Programação para Dispositivos Moveis | [/Documentos/src/Mobile](./Documentos/src/Mobile) | 
-| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/src/Backend](./Documentos/src/Backend) | 
+| Programação para Dispositivos Moveis | [/Documentos/src/Mobile](./src/Mobile) | 
+| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/src/Backend](./src/Backend) | 
 <br>
 
 
