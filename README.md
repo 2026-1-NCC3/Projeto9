@@ -14,7 +14,7 @@
 Yuri Santana<br>
 Mauricio Suster<br>
 Kaio Inglez<br>
-Igor
+Igor Almeida
 
 ## Professores Orientadores
 
@@ -31,8 +31,8 @@ Rodrigo da Rosa
 | :--- | :--- |
 | Análise Descritiva de Dados | [/Documentos/Entrega 1/Analise Descritiva de Dados](./Documentos/Entrega%201/Analise%20Descritiva%20de%20Dados) | 
 | Programação Orientada a Objetos e Estrutura de Dados | [/Documentos/Entrega 1/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%201/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | 
-| Programação para Dispositivos Moveis | [/Documentos/Entrega 1/Programação para Dispositivos Moveis](./Documentos/Entrega%201/Programação%20para%20Dispositivos%20Moveis) | 
-| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/Entrega 1/Projeto Interdisciplinar Aplicativo Movel](./Documentos/Entrega%201/Projeto%20Interdisciplinar%20Aplicativo%20Movel) | 
+| Programação para Dispositivos Moveis | [/Documentos/src/Mobile](./Documentos/src/Mobile) | 
+| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/src/Backend](./Documentos/src/Backend) | 
 <br>
 
 
