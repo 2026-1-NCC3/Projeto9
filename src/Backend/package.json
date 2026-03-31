@@ -1,0 +1,19 @@
+{
+  "name": "meu-app-fisio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.x.x",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.x.x",
+    "express": "^4.x.x",
+    "jsonwebtoken": "^9.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.x.x"
+  }
+}
