@@ -9,7 +9,7 @@ Aplicativo Android desenvolvido para a Clínica Maya, com foco em exercícios de
 - Kaio Inglez
 - Yuri Santana
 - Mauricio Suster
-- Igor
+- Igor Almeida
 
 ---
 
