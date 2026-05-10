@@ -59,4 +59,4 @@ Estrutura os dados das atividades que compõem o tratamento.
 ### 🖼️ Diagrama de Classes
 O diagrama abaixo representa a estrutura da função principal exigida nesta etapa, contemplando as entidades e seus respectivos tipos de dados.
 
-![Diagrama de Classes](../../../Imagens/)
+![Diagrama de Classes](../../../Imagens/Diagrama2.png)
