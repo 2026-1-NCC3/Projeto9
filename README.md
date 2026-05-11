@@ -18,9 +18,9 @@
 
 ## Professores Orientadores
 
-[Katia Bossi](https://www.linkedin.com/in/katia-bossi/)<br>
+[Kátia M. Lara Bossi](https://www.linkedin.com/in/katia-bossi/)<br>
 [Marco Aurélio](https://buscatextual.cnpq.br/buscatextual/visualizacv.do)<br>
-[Victor Rosetti](https://www.linkedin.com/in/victorbarq/)<br>
+[Victor Bruno Alexander Rosetti de Quiroz](https://www.linkedin.com/in/victorbarq/)<br>
 [Rodrigo da Rosa](https://www.linkedin.com/in/rodrigo-da-rosa-phd/)
 
 <br>
