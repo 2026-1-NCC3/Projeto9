@@ -11,28 +11,28 @@
 
 ## Integrantesdo Grupo
 
-Yuri Santana<br>
+[Yuri Oliveira Santana](https://www.linkedin.com/in/yuri-oliveira-santana/)<br>
 Mauricio Suster<br>
 Kaio Inglez<br>
 Igor Almeida
 
 ## Professores Orientadores
 
-Katia Bossi<br>
-Marco Aurélio<br>
-Victor Rosetti<br>
-Rodrigo da Rosa
+[Katia Bossi](https://www.linkedin.com/in/katia-bossi/)<br>
+[Marco Aurélio](https://buscatextual.cnpq.br/buscatextual/visualizacv.do)<br>
+[Victor Rosetti](https://www.linkedin.com/in/victorbarq/)<br>
+[Rodrigo da Rosa](https://www.linkedin.com/in/rodrigo-da-rosa-phd/)
 
 <br>
 
 ## Entregas das Disciplinas
 
-| Disciplina | Entrega 1 | 
-| :--- | :--- |
-| Análise Descritiva de Dados | [/Documentos/Entrega 1/Analise Descritiva de Dados](./Documentos/Entrega%201/Analise%20Descritiva%20de%20Dados) | 
-| Programação Orientada a Objetos e Estrutura de Dados | [/Documentos/Entrega 1/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%201/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | 
-| Programação para Dispositivos Moveis | [/Documentos/src/Mobile](./src/Mobile) | 
-| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/src/Backend](./src/Backend) | 
+| Disciplina | Entrega 1 | Entrega 2 |
+| :--- | :--- | :--- |
+| Análise Descritiva de Dados | [/Documentos/Entrega 1/Analise Descritiva de Dados](./Documentos/Entrega%201/Analise%20Descritiva%20de%20Dados) | [/Documentos/Entrega 2/Analise Descritiva de Dados](./Documentos/Entrega%202/Analise%20Descritiva%20de%20Dados) |
+| Programação Orientada a Objetos e Estrutura de Dados | [/Documentos/Entrega 1/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%201/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | [/Documentos/Entrega 2/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%202/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | 
+| Programação para Dispositivos Moveis | [/Documentos/src/Entrega 1](./src/Entrega%201) | [/Documentos/src/Entrega 2](./src/Entrega%202) | 
+| Projeto Interdisciplinar Aplicativo Movel | [/Documentos/src/Backend](./src/Entrega%201) | [/Documentos/src/Backend](./src/Entrega%202) | 
 <br>
 
 
@@ -65,7 +65,15 @@ O projeto consiste no desenvolvimento de uma solução tecnologica (web e mobile
 ├── imagens
 |
 ├── src
-|
+|   ├── Entrega 1
+|       ├── Backend
+|       ├── Mobile
+|       ├── Web
+|   ├── Entrega 2
+|       ├── Backend
+|       ├── Mobile
+|       ├── Web
+| 
 └── README.md
 ```
 
