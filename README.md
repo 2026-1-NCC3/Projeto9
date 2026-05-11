@@ -12,9 +12,9 @@
 ## Integrantesdo Grupo
 
 [Yuri Oliveira Santana](https://www.linkedin.com/in/yuri-oliveira-santana/)<br>
-Mauricio Suster<br>
-Kaio Inglez<br>
-Igor Almeida
+[Mauricio Suster](https://www.linkedin.com/in/mauricio-suster?utm_source=share_via&utm_content=profile&utm_medium=member_android)<br>
+[Kaio Inglez](https://www.linkedin.com/in/kaio-inglez-874812391?utm_source=share_via&utm_content=profile&utm_medium=member_ios)<br>
+[Igor Almeida](https://www.linkedin.com/in/igor-almeida-635656342?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 ## Professores Orientadores
 
