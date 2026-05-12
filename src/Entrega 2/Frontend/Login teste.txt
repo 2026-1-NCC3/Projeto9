@@ -1,0 +1,9 @@
+Login teste paciente app:
+
+usuário: sustermauricio@gmail.com
+senha: Teste1234
+
+Login teste ADMIN WEB
+
+usuário: maya@maya.com
+senha: teste1234
