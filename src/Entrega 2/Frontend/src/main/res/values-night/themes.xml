@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App usa o mesmo tema claro em modo escuro (preferência de pacientes idosos). -->
+    <style name="Base.Theme.Pi_Maya" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ciano</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorPrimaryContainer">@color/ciano_pp</item>
+        <item name="colorOnPrimaryContainer">@color/petroleo</item>
+
+        <item name="colorSecondary">@color/coral</item>
+        <item name="colorOnSecondary">@color/text_on_coral</item>
+        <item name="colorSecondaryContainer">@color/coral_claro</item>
+        <item name="colorOnSecondaryContainer">@color/coral_escuro</item>
+
+        <item name="colorTertiary">@color/petroleo</item>
+        <item name="colorOnTertiary">@color/text_on_petroleo</item>
+        <item name="colorTertiaryContainer">@color/bege</item>
+        <item name="colorOnTertiaryContainer">@color/text_on_bege</item>
+
+        <item name="android:colorBackground">@color/fundo</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorSurface">@color/branco</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/bege_claro</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <item name="colorError">@color/erro</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <item name="android:statusBarColor">@color/fundo</item>
+        <item name="android:navigationBarColor">@color/fundo</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

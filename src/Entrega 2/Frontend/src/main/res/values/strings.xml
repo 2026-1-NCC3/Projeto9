@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Maya RPG</string>
+    <string name="app_tagline">Reeducação Postural Global</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Bem-vindo(a) à clínica Maya</string>
+    <string name="onboarding_welcome_body">Acompanhamento personalizado de Reeducação Postural Global (RPG).</string>
+    <string name="onboarding_exercises_title">Exercícios em casa</string>
+    <string name="onboarding_exercises_body">Receba seus exercícios e pratique no conforto de casa, com feedback em tempo real.</string>
+    <string name="onboarding_privacy_title">Sua privacidade em primeiro lugar</string>
+    <string name="onboarding_privacy_body">Seus vídeos de exercícios nunca saem do seu celular. Tratamos seus dados conforme a LGPD.</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_skip">Pular</string>
+    <string name="action_start">Começar</string>
+
+    <!-- Auth -->
+    <string name="auth_login_title">Olá! Que bom te ver.</string>
+    <string name="auth_login_subtitle">Entre com sua conta para continuar.</string>
+    <string name="auth_email_sent_title">Conta criada com sucesso</string>
+    <string name="auth_email_sent_body">Enviamos um link de verificação para %1$s. Confirme seu e-mail e depois entre.</string>
+    <string name="auth_processing_callback">Processando confirmação…</string>
+    <string name="auth_callback_invalid">Link inválido ou expirado.</string>
+    <string name="auth_register_title">Crie sua conta</string>
+    <string name="auth_register_subtitle">Em poucos passos você está pronto para começar.</string>
+    <string name="auth_forgot_title">Recuperar senha</string>
+    <string name="auth_forgot_subtitle">Enviaremos um link para o seu e-mail.</string>
+
+    <string name="field_full_name">Nome completo</string>
+    <string name="field_email">E-mail</string>
+    <string name="field_password">Senha</string>
+    <string name="field_password_confirm">Confirmar senha</string>
+    <string name="field_phone">Celular (com DDD)</string>
+    <string name="field_birth_date">Data de nascimento</string>
+
+    <string name="action_login">Entrar</string>
+    <string name="action_register">Criar conta</string>
+    <string name="action_forgot_password">Esqueci minha senha</string>
+    <string name="action_send_recovery">Enviar link de recuperação</string>
+    <string name="action_back_to_login">Voltar para o login</string>
+    <string name="action_dont_have_account">Não tenho conta. Cadastrar</string>
+    <string name="action_have_account">Já tenho conta. Entrar</string>
+
+    <string name="lgpd_consent">Li e concordo com a Política de Privacidade e os Termos de Uso, conforme a Lei Geral de Proteção de Dados (LGPD).</string>
+    <string name="lgpd_link">Ler política de privacidade</string>
+
+    <!-- Validation -->
+    <string name="validation_required">Campo obrigatório</string>
+    <string name="validation_invalid_email">E-mail inválido</string>
+    <string name="validation_password_short">Senha deve ter ao menos 8 caracteres</string>
+    <string name="validation_password_mismatch">As senhas não coincidem</string>
+    <string name="validation_must_accept_terms">Você precisa aceitar os termos para continuar</string>
+
+    <!-- Navigation labels -->
+    <string name="nav_home">Início</string>
+    <string name="nav_schedule">Agenda</string>
+    <string name="nav_exercises">Exercícios</string>
+    <string name="nav_chat">Conversas</string>
+    <string name="nav_content">Aprender</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Olá, %1$s</string>
+    <string name="home_greeting_generic">Olá</string>
+    <string name="home_today">Hoje, %1$s</string>
+    <string name="home_next_session_title">Sua próxima sessão</string>
+    <string name="home_no_session">Você não tem sessões agendadas.</string>
+    <string name="home_exercises_today">Exercícios de hoje</string>
+    <string name="home_no_exercises">Sem exercícios para hoje. Bom descanso!</string>
+    <string name="home_unread_messages">Você tem %1$d mensagem(s) não lida(s)</string>
+    <string name="home_section_learn">Aprenda mais sobre RPG</string>
+
+    <!-- Schedule -->
+    <string name="schedule_title">Minha agenda</string>
+    <string name="schedule_upcoming">Próximas sessões</string>
+    <string name="schedule_history">Histórico</string>
+    <string name="schedule_empty">Nenhuma sessão por aqui ainda.</string>
+
+    <!-- Exercises -->
+    <string name="exercises_title">Meus exercícios</string>
+    <string name="exercises_empty">A fisioterapeuta ainda não atribuiu exercícios.</string>
+    <string name="exercises_start">Iniciar exercício</string>
+    <string name="exercises_camera_required">Este exercício usa a câmera para corrigir sua postura em tempo real.</string>
+
+    <!-- Chat -->
+    <string name="chat_title">Conversas</string>
+    <string name="chat_empty">Suas conversas aparecerão aqui.</string>
+    <string name="chat_message_hint">Digite uma mensagem…</string>
+    <string name="chat_send">Enviar</string>
+
+    <!-- Content -->
+    <string name="content_title">Aprender</string>
+    <string name="content_empty">Em breve, conteúdos sobre postura e RPG.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Meu perfil</string>
+    <string name="profile_personal_data">Dados pessoais</string>
+    <string name="profile_privacy">Privacidade e LGPD</string>
+    <string name="profile_export_data">Exportar meus dados</string>
+    <string name="profile_delete_account">Excluir minha conta</string>
+    <string name="profile_logout">Sair</string>
+    <string name="profile_app_version">Versão %1$s</string>
+
+    <!-- Common -->
+    <string name="loading">Carregando…</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+    <string name="error_network">Sem conexão. Verifique sua internet.</string>
+    <string name="action_retry">Tentar novamente</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_save">Salvar</string>
+</resources>

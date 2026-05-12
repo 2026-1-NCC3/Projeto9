@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ===== Identidade visual Maya RPG (ANEXO I) ===== -->
+
+    <!-- Principais -->
+    <color name="ciano">#46B6CC</color>
+    <color name="ciano_escuro">#2D8E9E</color>
+    <color name="ciano_pp">#D8EFF6</color>          <!-- versão clara/translúcida (PP) -->
+    <color name="coral">#E87461</color>
+    <color name="coral_escuro">#B6533F</color>
+    <color name="coral_claro">#F8C7BC</color>
+    <color name="petroleo">#005A7D</color>
+    <color name="petroleo_escuro">#003E55</color>
+    <color name="petroleo_claro">#C7DFE9</color>
+
+    <!-- Secundárias -->
+    <color name="bege">#E4D2B4</color>
+    <color name="bege_claro">#F1E5CD</color>
+    <color name="marrom">#8B6F47</color>
+    <color name="azul_escuro">#1F3D5C</color>
+
+    <!-- Funcionais -->
+    <color name="fundo">#F7F2EB</color>             <!-- background creme -->
+    <color name="branco">#FFFFFF</color>
+    <color name="sucesso">#2D6A4F</color>
+    <color name="sucesso_claro">#D8E8DD</color>
+    <color name="alerta">#E0A75E</color>
+    <color name="erro">#C45A5A</color>
+    <color name="erro_claro">#F5DCDC</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#2A2624</color>
+    <color name="text_secondary">#5C524E</color>
+    <color name="text_disabled">#A89E9A</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_petroleo">#FFFFFF</color>
+    <color name="text_on_coral">#FFFFFF</color>
+    <color name="text_on_bege">#3A2E1A</color>
+
+    <!-- Outline / divisores -->
+    <color name="outline">#C5BBB7</color>
+    <color name="outline_variant">#E5DDDA</color>
+    <color name="divider">#EFE8E5</color>
+
+    <!-- ============================================================
+         ALIASES (mantém compatibilidade com layouts já criados)
+         Mapeados para as novas cores da identidade.
+         ============================================================ -->
+    <color name="primary_pastel">@color/ciano</color>
+    <color name="primary_pastel_dark">@color/ciano_escuro</color>
+    <color name="primary_pastel_light">@color/ciano_pp</color>
+    <color name="on_primary">#0A2A33</color>
+
+    <color name="secondary_pastel">@color/coral</color>
+    <color name="secondary_pastel_dark">@color/coral_escuro</color>
+    <color name="secondary_pastel_light">@color/coral_claro</color>
+    <color name="on_secondary">#3A1810</color>
+
+    <color name="tertiary_pastel">@color/petroleo</color>
+    <color name="tertiary_pastel_dark">@color/petroleo_escuro</color>
+    <color name="tertiary_pastel_light">@color/petroleo_claro</color>
+    <color name="on_tertiary">#FFFFFF</color>
+
+    <color name="background">@color/fundo</color>
+    <color name="surface">@color/branco</color>
+    <color name="surface_variant">@color/bege_claro</color>
+    <color name="on_background">@color/text_primary</color>
+    <color name="on_surface">@color/text_primary</color>
+    <color name="on_surface_variant">@color/text_secondary</color>
+
+    <color name="success_pastel">@color/sucesso_claro</color>
+    <color name="success_pastel_dark">@color/sucesso</color>
+    <color name="warning_pastel">#FAD9A1</color>
+    <color name="warning_pastel_dark">@color/alerta</color>
+    <color name="error_pastel">@color/erro_claro</color>
+    <color name="error_pastel_dark">@color/erro</color>
+    <color name="info_pastel">@color/ciano_pp</color>
+    <color name="info_pastel_dark">@color/petroleo</color>
+
+    <color name="text_on_color">#FFFFFF</color>
+</resources>

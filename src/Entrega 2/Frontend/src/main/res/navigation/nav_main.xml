@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pi_maya.presentation.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.pi_maya.presentation.schedule.ScheduleFragment"
+        android:label="@string/nav_schedule" />
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="com.example.pi_maya.presentation.exercises.ExercisesFragment"
+        android:label="@string/nav_exercises" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.pi_maya.presentation.chat.ChatFragment"
+        android:label="@string/nav_chat" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pi_maya.presentation.profile.ProfileFragment"
+        android:label="@string/nav_profile" />
+</navigation>
