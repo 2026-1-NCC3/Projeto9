@@ -131,7 +131,7 @@ junto no APK — veja `app/build.gradle.kts` (task `downloadPoseModel`).
 
 ## Estrutura de pastas
 
-```
+```text|
 app/src/main/java/com/example/pi_maya/
 ├── MayaApp.java                       # Application + ServiceLocator
 ├── core/
@@ -173,6 +173,7 @@ app/src/main/java/com/example/pi_maya/
     ├── content/                         # feed + detalhe com cover
     └── profile/                         # perfil + logout + LGPD
 ```
+    
 
 ## Telas
 
