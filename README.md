@@ -231,6 +231,17 @@ Pra configurar no Supabase, adicione `pi-maya://auth/callback` em
 - Anexos no chat
 - Modo offline (cache local)
 
+Login teste paciente app:
+
+usuário: sustermauricio@gmail.com
+senha: Teste1234
+
+Login teste ADMIN WEB
+
+usuário: maya@maya.com
+senha: teste1234
+
+URL:https://pi-maia-web.vercel.app/login
 
 ## 📋 Licença/License
 <a href="https://example.com">Projeto Maya Yamamoto - RPG</a> © 2026 by <a href="https://example.com">Yuri Santana, Mauricio Suster, Kaio Inglez e Igor Almeida</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
